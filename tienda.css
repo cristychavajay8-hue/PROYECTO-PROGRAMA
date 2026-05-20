@@ -18,6 +18,8 @@ nav{
 
 nav h1{
     color:#ff1493;
+    font-family: poppings;
+
 }
 
 nav ul{
@@ -36,7 +38,8 @@ nav ul :hover{
 }
 
 .texto h2{
-    padding-top: 25px;
+    font-size: 50px;
+    font-family:cinzel;
     text-align: center;
     color:#ff1493;
 }
@@ -45,8 +48,83 @@ nav ul :hover{
     margin-top:20px;
     font-size:22px;
     text-align: center;
+    padding-left: 40px;
+        padding-right: 40px;
 }
 
+.comienzo{ 
+    padding:15px 15px;
+    background:white;
+    border-radius:40px;
+    transition:0.4s;
+    display:block;
+    text-align:center;
+ width: 25%;
+    margin: 50px auto;
+}
+
+.comienzo:hover{
+    transform:scale(1.1);
+}
+ 
+.comienzo h1{
+    font-size:50px;
+    color:#ff1493;
+}
+
+.comienzo p{
+    font-size:25px;
+    color:black;
+}
+
+.boton{
+    background-color: #ff1493;
+    color: white;
+text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 18px;
+    border: none;
+}
+
+.boton:hover{
+    background-color: #C26F8A;
+    color: white;
+}
+
+.presentacion{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    padding:40px;
+}
+
+.textoo{
+    font-size: 30px;
+    font-family:cinzel;
+    text-align:center;
+    color:#ff1493;    
+}
+
+
+.textoo p{
+    font-size:25px;
+    text-align:center;
+    color: black;
+}
+
+.imagen-portada img{
+    width:100%;
+    max-width:500px;
+    border-radius:25px;
+    transition:0.5s;
+ }
+
+.imagen-portada :hover{
+    transform:scale(1.03);
+}
 .frase{
     text-align:center;
     color:#ff1493;
@@ -88,14 +166,13 @@ nav ul :hover{
 }
 
 .cuadro{
-    background:#FFB5C0;
+    background:#F9D6D5;
     padding:50px;
     border-radius:25px;
     text-align:center;
-    width: 75%;
+    width: 50%;
     margin: 50px auto;
     justify-content: center;
-
     transition:0.5s;
 }
 
@@ -108,9 +185,92 @@ nav ul :hover{
     margin-bottom:15px;
 }
 
+.cuadro h4{
+    color:#FF1493;
+}
+    
 .cuadro ul{
     list-style:none;
 }   
+
+.fa-location-dot{
+    color:#ff1493;
+    margin-right:8px;
+    font-size:30px;
+}
+
+.fa-store{
+    color:#ff1493;
+    margin-right:8px;
+    font-size:20px;
+}
+
+.fa-clock{
+    color:#ff1493;
+    margin-right:8px;
+    font-size:20px;
+}
+
+.fa-phone{
+    color:#FF1493;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.fa-whatsapp{
+    color: #FF1493;
+     margin-right: 8px;
+    font-size: 20px;
+}
+
+.fa-envelope{
+    color: #FF1493;
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.redes{
+    display:flex;
+    gap:20px;
+    margin-top:15px;
+}
+
+.redes a{
+    width:60px;
+    height:60px;
+    background:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    transition:0.4s;
+}
+
+.redes a:hover{
+    transform:scale(1.1);
+}
+
+.redes .fa-instagram{
+    color:#C13584;
+    font-size:30px;
+      justify-content:center;
+    align-items:center;
+}
+
+.redes .fa-facebook-f{
+    color:#1877F2;
+    font-size:30px;
+      justify-content:center;
+    align-items:center;
+}
+
+.redes .fa-tiktok{
+    color:#000;
+    font-size:30px;
+      justify-content:center;
+    align-items:center;
+}
 
 footer{
     text-align:center;
