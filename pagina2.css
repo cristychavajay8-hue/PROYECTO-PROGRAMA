@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEC8D8;
+    font-family: Arial,;
+}
+
+.gracias{
+    text-align: center;
+    background: #FFB5C0;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h1{
+    color: #ff1493;
+}
+
+button{
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff1493;
+    color: white;
+    font-size: 16px;
+    transition:0.5s;
+ }
+
+button:hover{
+    background-color: #bb4f79;
+      transform:scale(1.03);
+}

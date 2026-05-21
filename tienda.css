@@ -2,7 +2,7 @@ body{
     margin:0;
     padding:0;
     font-family:Arial;
-    background:#FEC8D8
+    background:#FEC8D8;
 }
 
 nav{
@@ -34,7 +34,7 @@ nav a{
 }
 
 nav ul :hover{
-    color:#C26F8A
+    color:#ff1493;
 }
 
 .texto h2{
@@ -49,7 +49,7 @@ nav ul :hover{
     font-size:22px;
     text-align: center;
     padding-left: 40px;
-        padding-right: 40px;
+    padding-right: 40px;
 }
 
 .comienzo{ 
@@ -65,6 +65,7 @@ nav ul :hover{
 
 .comienzo:hover{
     transform:scale(1.1);
+     box-shadow: 0 0 60px #FF00AA;
 }
  
 .comienzo h1{
@@ -80,17 +81,19 @@ nav ul :hover{
 .boton{
     background-color: #ff1493;
     color: white;
-text-decoration: none;
+    text-decoration: none;
     padding: 15px;
     border-radius: 15px;
     display: inline-block;
     font-size: 18px;
     border: none;
-}
+    transition:0.5s;
+ }
 
 .boton:hover{
     background-color: #C26F8A;
     color: white;
+      transform:scale(1.03);
 }
 
 .presentacion{
@@ -124,6 +127,7 @@ text-decoration: none;
 
 .imagen-portada :hover{
     transform:scale(1.03);
+    box-shadow: 0 0 60px #FF00AA;
 }
 .frase{
     text-align:center;
@@ -146,7 +150,6 @@ text-decoration: none;
     border-radius:25px;
     overflow:hidden;
     text-align:center;
-    margin-bottom: 60px;    
     width: 50%;
     margin: 50px auto;
     justify-content: center;
@@ -156,6 +159,7 @@ text-decoration: none;
 
 .caja:hover{
     transform:scale(1.03);
+     box-shadow: 0 0 60px #FF00AA;
 }
 
 
@@ -178,6 +182,7 @@ text-decoration: none;
 
 .cuadro:hover{
     transform:scale(1.03);
+     box-shadow: 0 0 60px #FF00AA;
 }   
 
 .cuadro h3{
@@ -199,10 +204,22 @@ text-decoration: none;
     font-size:30px;
 }
 
+.fa-location-dot{
+    color:#ff1493;
+    margin-right:8px;
+    font-size:30px;
+}
+
 .fa-store{
     color:#ff1493;
     margin-right:8px;
     font-size:20px;
+}
+
+.direccion a{
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
 }
 
 .fa-clock{
@@ -271,6 +288,46 @@ text-decoration: none;
       justify-content:center;
     align-items:center;
 }
+
+.contacto{
+    padding:80px 8%;
+}
+
+form{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.input-group{
+    margin-bottom:20px;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    background:#f4f4f4;
+    outline:none;
+    transition:0.3s;
+}
+
+input:focus,
+textarea:focus{
+    background:#ffe4f2;
+    transform:scale(1.02);
+}
+
+textarea{
+    resize:none;
+    height:150px;
+}
+
 
 footer{
     text-align:center;
