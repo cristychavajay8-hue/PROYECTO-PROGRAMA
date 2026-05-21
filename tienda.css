@@ -9,7 +9,34 @@ body{
     margin:0;
     padding:0;
     font-family:Arial;
-    background:#FEC8D8;
+}
+
+
+.section primero{ 
+    background: linear-gradient(135deg, #fff7f9, #ffeef2);
+}
+ 
+.section segundo{
+ background: linear-gradient(135deg, #fff1f5, #ffe4ec);
+}
+
+.section tercero{
+     background: linear-gradient(135deg, #fff5f8, #ffdfe8);
+}
+    
+.section cuarto{
+    background: linear-gradient(135deg, #fff0f4, #ffd6e4);
+}
+.section quinto{
+    background: linear-gradient(135deg, #fff4f7, #ffe0ea);
+}
+
+.section sexto{
+     background: linear-gradient(135deg, #fff2f6, #ffd9e8);
+}
+
+.section septimo{
+    background: linear-gradient(135deg, #fff6f9, #ffe5ee);
 }
 
 nav{
@@ -101,7 +128,7 @@ nav ul :hover{
 .boton:hover{
     background-color: #C26F8A;
     color: white;
-      transform:scale(1.03);
+    transform:scale(1.03);
 }
 
 .presentacion{
@@ -136,6 +163,8 @@ nav ul :hover{
 .imagen-portada :hover{
     transform:scale(1.03);
     box-shadow: 0 0 60px #FF00AA;
+    
+    
 }
 .frase{
     text-align:center;
@@ -210,7 +239,7 @@ margin-top:50px;
 }
 
 .cuadro{
-    background:#F9D6D5;
+    background:#FFB5C0;
     padding:50px;
     border-radius:25px;
     text-align:center;
@@ -377,3 +406,36 @@ footer{
     padding:25px;
     margin-top: 20px;
 }
+
+ .botoon a{
+    background-color: #ff1493;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: 0.5s;
+ }
+
+.botoon:hover{
+      transform:scale(1.03);
+}
+
+.boton2{
+    background-color: #ff1493;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 13px;
+    border: none;
+    transition:0.5s;
+ }
+
+.boton2:hover{
+    background-color: #C26F8A;
+    color: white;
+    transform:scale(1.03);
+}
+
