@@ -1,4 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
+    width: 100%;
     margin:0;
     padding:0;
     font-family:Arial;
@@ -42,6 +49,7 @@ nav ul :hover{
     font-family:cinzel;
     text-align: center;
     color:#ff1493;
+    margin-top: 60px;
 }
 
 .texto p{
@@ -166,6 +174,15 @@ nav ul :hover{
     width:50%;
     height:300 px;
     object-fit:contain;
+}
+
+.contenedorcatalogo{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+justify-items:center;
+margin-top:50px;
+
 }
 
 .caja{
@@ -353,8 +370,10 @@ textarea{
 
 
 footer{
-    text-align:center;
-    padding:25px;
+    width: 100%;
     background:#E57D90;
     color:black;
+    text-align:center;
+    padding:25px;
+    margin-top: 20px;
 }
