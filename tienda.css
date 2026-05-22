@@ -9,34 +9,16 @@ body{
     margin:0;
     padding:0;
     font-family:Arial;
-}
+      min-height: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    #ffe4ee,
+    #fff7fa,
+    #ffdbe8,
+    #ffffff
+  );
 
-
-.section primero{ 
-    background: linear-gradient(135deg, #fff7f9, #ffeef2);
-}
- 
-.section segundo{
- background: linear-gradient(135deg, #fff1f5, #ffe4ec);
-}
-
-.section tercero{
-     background: linear-gradient(135deg, #fff5f8, #ffdfe8);
-}
-    
-.section cuarto{
-    background: linear-gradient(135deg, #fff0f4, #ffd6e4);
-}
-.section quinto{
-    background: linear-gradient(135deg, #fff4f7, #ffe0ea);
-}
-
-.section sexto{
-     background: linear-gradient(135deg, #fff2f6, #ffd9e8);
-}
-
-.section septimo{
-    background: linear-gradient(135deg, #fff6f9, #ffe5ee);
 }
 
 nav{
@@ -200,9 +182,15 @@ nav ul :hover{
 }
 
 .popular img{
-    width:50%;
-    height:300 px;
-    object-fit:contain;
+    width:220px;
+    border-radius:10px;
+}
+
+.contenedordestacados{
+    display:flex;
+    justify-content:center;
+    gap:150px;
+    margin-top:50px;
 }
 
 .contenedorcatalogo{
