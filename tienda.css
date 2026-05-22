@@ -145,18 +145,6 @@ nav ul :hover{
 .imagen-portada :hover{
     transform:scale(1.03);
     box-shadow: 0 0 60px #FF00AA;
-    
-    
-}
-.frase{
-    text-align:center;
-    color:#ff1493;
-}
-
-.frase p{
-    text-align: center;
-    color:black;
-    font-size:22px;
 }
 
 .Separado{
@@ -198,6 +186,7 @@ nav ul :hover{
 display:grid;
 grid-template-columns:repeat(4,1fr);
 justify-items:center;
+gap: 60px;
 margin-top:50px;
 
 }
@@ -205,12 +194,12 @@ margin-top:50px;
 .caja{
     background:#FFB5C0;
     border-radius:25px;
-    overflow:hidden;
     text-align:center;
-    width: 50%;
-    margin: 50px auto;
-    justify-content: center;
-    align-items: center;
+    width: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     transition:0.5s;
  }
 
@@ -221,9 +210,8 @@ margin-top:50px;
 
 
 .caja img{
-    width:50%;
-    height:300 px;
-    object-fit:contain;
+    width:100%;
+    border-radius: 15px;
 }
 
 .cuadro{
