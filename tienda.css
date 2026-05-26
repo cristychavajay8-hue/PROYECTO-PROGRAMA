@@ -449,3 +449,88 @@ footer{
     transform:scale(1.03);
 }
 
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        align-items:center;
+        gap:15px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .presentacion{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .contenedordestacados{
+        flex-direction:column;
+        align-items:center;
+        gap:40px;
+    }
+
+    .Separado{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    .contenedorcatalogo{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    .nosotros{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    .valores{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    .porque{
+        grid-template-columns:repeat(1,1fr);
+    }
+
+    .popular{
+        width:90%;
+    }
+
+    .caja{
+        width:90%;
+    }
+
+    .cuadro{
+        width:90%;
+    }
+
+    .comienzo{
+        width:90%;
+    }
+
+    .texto h2{
+        font-size:35px;
+    }
+
+    .texto p{
+        font-size:18px;
+    }
+
+    .textoo{
+        font-size:22px;
+    }
+
+    .textoo p{
+        font-size:18px;
+    }
+
+    form{
+        width:90%;
+        padding:20px;
+    }
+
+}
+
